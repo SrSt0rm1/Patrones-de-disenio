@@ -7,7 +7,10 @@ public class Main{
          "Hola mundo");
 
         Documento documento2 = documento.clonar();
+
+        System.out.println("Documento original: ");
         System.out.println(documento);
+        System.out.println("Clon del documento: ");
         System.out.println(documento2);
 
     }
